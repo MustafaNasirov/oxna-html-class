@@ -1,0 +1,21 @@
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+main{
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+p:hover, h1:hover, label:hover, li:hover{
+    background-color: black;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+p:active, li:active{
+    text-decoration: underline;
+    text-decoration-color: green;
+}
