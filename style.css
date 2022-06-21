@@ -19,3 +19,70 @@ p:active, li:active{
     text-decoration: underline;
     text-decoration-color: green;
 }
+
+
+.flag_container{
+    display: flex;
+    flex-direction: column;
+}
+
+    .topBox{
+        height: 50px;
+        width: 200px;
+        background-color: black;
+    }
+
+    .midBox{
+        height: 50px;
+        width: 200px;
+        background-color: red;
+    }
+
+    .botBox{
+        height: 50px;
+        width: 200px;
+        background-color: yellow;
+    }
+
+
+.flag_container:hover .topBox{
+    background-color: red;
+}
+
+
+.flag_container:hover .midBox{
+    background-color: white;
+}
+
+.flag_container:hover .botBox{
+    background-color: green;
+}
+
+.flag_container2{
+    display: flex;
+    flex-direction: column;
+}
+
+    .topBox2{
+        height: 50px;
+        width: 200px;
+        background-color: black;
+    }
+
+    .midBox2{
+        height: 50px;
+        width: 200px;
+        background-color: red;
+    }
+
+    .botBox2{
+        height: 50px;
+        width: 200px;
+        background-color: yellow;
+    }
+
+
+#botRow:hover, #midRow:hover, #topRow:hover{
+    background-color: blue;
+}
+
